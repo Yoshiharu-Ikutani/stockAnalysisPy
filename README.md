@@ -1,4 +1,5 @@
-## simple python module to get stock price data via Google finance api
+## GoogleFinance
+Simple python module to get stock price data via Google finance api
 
 ## I/O
 * input: code = a string to specify stock name
@@ -8,5 +9,16 @@
 * output: stockPrice = pandas dataframe containing stock price time series
 
 ## (usage) Get stock price data of Apple inc.
+
+```
 from GoogleFinance import GoogleFinance
 GoogleFinance.call('AAPL', 'NASD')
+```
+
+## installation
+
+```
+$ git clone git@github.com:Yoshiharu-Ikutani/stockAnalysisPy.git
+$ cd /path/to/stockAnalysisPy
+$ pip install -r requirements.txt
+```
